@@ -1,0 +1,54 @@
+body{
+background-color: white;
+}
+@font-face { 
+    font-family:'picaflor';
+    src: url('Picaflor-16pt.woff') format('woff')
+}
+
+div.poster{
+    background-color: rgba(0, 0, 0, 0.952);
+    width: 75%;
+}
+
+div.small {
+    font-size: 20px;
+    color: azure;
+    text-align: center;
+    padding-bottom: 18px;
+    border-top: 1px solid azure;
+}
+
+div.text{
+    font-family: 'arial';
+    text-transform: uppercase;
+    transition: 0.4s;
+    border-top: 1px solid azure;
+  
+}
+
+div.text.one { 
+    font-family: 'picaflor';
+    font-size: 30px;
+    color: rgb(33, 253, 81);
+    font-style: italic;
+    text-align: justify;
+    text-align-last: justify;
+    text-justify: inter-word;
+}
+
+div.text.two { 
+    font-size: 60px;
+    color:rgb(35, 71, 231);
+    text-align: justify;
+    text-align-last: justify;
+    text-justify: inter-word;
+}
+
+div.text.three { 
+    font-size: 90px;
+   text-align: center;
+    color: blueviolet;
+    text-shadow: 3px 3px 2px yellow;
+}
+

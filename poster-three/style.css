@@ -1,0 +1,55 @@
+body{
+background-color: black;
+}
+@font-face {
+    font-family: 'franklin';
+    src: url('MudClub-FranklintheGoth.woff') format('woff');
+    
+}
+@font-face {
+    font-family:'jeanluc';
+    src: url('jeanlucweb-bold.woff') format('woff');
+}
+
+
+div.poster{
+    background-color: rgba(177, 233, 247, 0.952);
+    width: 75%;
+}
+
+div.small {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 18px;
+    color: white;
+    border-top: 1px solid black;
+}
+
+div.text{
+    font-family: arial;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.4s;
+    border-top: 1px solid black;
+}
+
+div.text.one{ 
+    font-size: 150px;
+    font-family: 'franklin';
+    color: rgb(0, 0, 156);
+   
+}
+div.text.two { 
+    font-size: 80px;
+    font-style: italic;
+    text-align: left;
+    font-family: 'jeanluc';
+    color: rgb(89, 0, 255);
+}
+div.text.three { 
+    font-size: 40px;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(53, 167, 175, 0.884);
+    text-shadow: 3px 3px 4px rgb(51, 218, 154);
+}
