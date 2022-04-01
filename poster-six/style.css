@@ -15,7 +15,7 @@ div.poster{
 div.container {
     display: flex;
     flex-wrap: wrap;
-    
+    outline: 1px solid lime;
 
 }
 
@@ -50,6 +50,8 @@ div.w2-2 {
     width: 100%;
 }
 
+
+
  /* quarters */
 
  div.w1-4 {
@@ -69,6 +71,10 @@ div.w4-4 {
 }
 
 
+
+
+
+
 div.small {
     font-size: 20px;
     text-align: center;
@@ -81,13 +87,14 @@ div.text{
     font-family: arial;
     text-align: center;
     text-transform: uppercase;
+    transition: 0.4s;
    
 }
 
 /* rule 1 */
 
 div.text.one{ 
-    font-size: 30px;
+    font-size: 50px;
     font-family: 'Times New Roman', Times, serif;
     
     
@@ -104,37 +111,35 @@ div.text.three {
 
 /* rule 2 */
 div.text.a {
-   text-shadow: 2px 2px 2px blue; 
+    color: blue;
+    text-shadow: 3px 5px 3px rgb(0, 0, 0);
 }
 
 div.text.b { 
-    
-
+    color:orchid;
+    text-shadow: 3px 3px 3px yellow;
 }
 
-div.text.c { 
-    text-shadow: 
+div.text.c {
+    color: purple
 }
-
 
 /* rule 3 */
 div.text.x {
-    background-color: #33ff7d; 
+    background-color: #33ff7d;
+    
     
     
 }
 
 div.text.y { 
-    
+    background-color:#b3e8c2 ;
    
 }
 
 div.text.z { 
+    background-color: aquamarine;
     
-    
-}
-
-
 }
 
 
