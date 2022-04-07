@@ -1,0 +1,159 @@
+body{
+background-color: black
+
+}
+
+div.poster{
+    background-color: rgb(0, 0, 0)
+    width: 75%;
+    color: black;
+  
+    
+}
+
+div.rounded {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: red;
+
+@font-face {
+    
+}
+
+@font-face {
+    
+}
+
+div.container {
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+
+ /* Column stuff */
+
+div.col{
+    width: 33.33%;
+    overflow: hidden;
+}
+
+ 
+    
+}
+
+div.w3-3 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ /* half */
+
+ div.w1-2 {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.w2-2 { 
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+div.small {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 18px;
+    border-top: 1px solid black;
+}
+
+
+div.text{
+    font-family: arial;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.4s;
+   
+}
+
+/* rule 1 */
+
+div.text.one{ 
+    text-shadow: 3px 3px 3px yellow;
+   
+    
+    
+    
+}
+div.text.two { 
+    font-style: oblique;
+    text-shadow: 3px 3px 3px red;
+
+   
+    
+    
+ 
+}
+div.text.three { 
+    text-shadow: 3px 3px 3px blue;
+  
+   
+    
+   
+   
+}
+
+/* rule 2 */
+div.text.a {
+    font-size: 20px;
+    
+   
+    
+}
+
+div.text.b { 
+    font-size: 50px;
+    
+    
+}
+
+div.text.c {
+    font-size: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+/* rule 3 */
+div.text.x {
+    color: lime;
+  
+ 
+  
+   
+}
+
+div.text.y { 
+   color: cyan
+   
+ 
+}
+
+div.text.z { 
+    color: magenta;
+   
+    
+    
+}
+
+
+
+
+
+
