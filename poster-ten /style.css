@@ -27,8 +27,7 @@ div.rounded {
 }
 
 div.container {
-    display: flex;
-    flex-wrap: wrap;
+    
     
 
 }
@@ -46,22 +45,22 @@ div.col{
 
 div.w3-3 {
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
+    text-align: center;
+    
 }
 
  /* half */
 
  div.w1-2 {
     width: 50%;
-    display: flex;
-    flex-wrap: wrap;
+    text-align: center;
+    
 }
 
 div.w2-2 { 
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
+    text-align: center;
+    
 }
 
 
@@ -127,9 +126,7 @@ div.text.b {
 
 div.text.c {
     font-size: 350px;
-    display: flex;
-    flex-wrap: wrap;
-    
+   
 }
 
 /* rule 3 */
