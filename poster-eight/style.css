@@ -6,10 +6,7 @@ div.poster{
     background-color: rgb(255, 255, 255);
     width: 75%;
     color: black;
-    background-image: url(digital-hand.png);
-    background-repeat: no-repeat;
-    background-position: right bottom;
-    background-size: 100px;
+   
 }
 
 @font-face {
@@ -94,7 +91,7 @@ div.text.two {
  
 }
 div.text.three { 
-    font-family: 'futura';
+    font-family: 'garamond';
    
    
 }
@@ -131,7 +128,11 @@ div.text.y {
 }
 
 div.text.z { 
-    background-color: transparent
+    background-color: white;
+    background-image: url(digital-hand.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 100px;
     
     
 }
