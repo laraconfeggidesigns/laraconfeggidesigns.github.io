@@ -1,0 +1,58 @@
+    
+
+
+    div.carousel { 
+        width: 25%; 
+        height: 25%;
+        position: relative;
+        margin-left: 20px;
+        padding-top: 10px;
+        
+    }
+
+  
+
+   
+
+    div.slide { 
+        position: absolute;
+        inset: 0;
+        opacity: 0;
+
+    }
+
+    div.data.active {
+        opacity: 1;
+        
+    }
+
+    div.speech.stone {
+        margin-top: 10px;
+    }
+
+        div.stone.description { 
+            padding-bottom: 20px;
+        }
+   
+       
+     div.carousel { 
+         display: flex;
+         flex-wrap: wrap;
+         align-items: flex-start; 
+         width: 100%;
+         
+       
+         
+     }  
+
+     div.artefacts {
+        width: 25%;
+         padding: 30px;
+      
+         margin-left: -20px;
+     }
+
+
+
+ 
+    }

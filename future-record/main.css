@@ -1,0 +1,378 @@
+body {
+    background-color: whitesmoke;
+    font-family: arial;
+    font-size: 24px;
+    color: black;
+}
+
+@font-face {
+    font-family: 'Makermono';
+    src: url(maker-mono.woff) format('woff');
+}
+
+img {
+    width: 100%;
+}
+
+a   { 
+    color:black; 
+    text-decoration: none;
+}
+
+a:hover {
+    color: limegreen: 
+}
+
+div.header {
+    display: flex;
+    flex-wrap: wrap;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    font-size: 20px;
+    padding-top: 10px;
+
+   
+    
+
+}
+
+div.header a { 
+    color: black;
+}
+
+div.header a:hover {
+    color:limegreen; 
+
+}
+
+div.featured a {
+    color:rgb(202, 33, 137);
+}
+
+div.featured a:hover { 
+    color: limegreen;
+}
+
+div.note a {
+    color: limegreen;
+    text-decoration: underline;
+}
+
+
+
+div.logo {
+    padding: 10px;
+    width: 50%;
+    font-style: italic;
+    font-weight: bold;
+    padding-left: 50px;
+    position: fixed;
+    padding-top: 15px;
+    
+}
+
+div.space {
+    width: 50%;
+}
+
+div.intro {
+    width: 25%;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+div.header2 {
+    padding: 10px;
+    width: 25%; 
+    padding-right: 3%; 
+    
+}
+
+div.nav {
+  
+    padding: 10px;
+    font-weight: bold;
+}
+
+div.image.siri {
+    padding-top: 20px;
+    position: fixed;
+    opacity: 90%;
+    width: 23%;
+    
+}
+
+
+
+div.masthead {
+    font-size: 150px;
+    font-family: 'Makermono';
+    padding: 50px;
+    margin-top: 150px;
+    margin-bottom: 200px;
+
+}
+
+div.about {
+    padding: 20px;
+    width: 50%;
+    font-size: 20px;
+    margin-bottom: 80px;
+    
+    
+    
+  
+}
+
+div.title { 
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    color: limegreen;
+}
+
+div.subheading {
+    text-align: left;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+    
+    font-weight: bolder;
+    color: black;
+    margin bottom: 90px; 
+    width: 40%; 
+}
+
+
+
+div.keywords {
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: times;
+    text-align: center;
+    width: 50%;
+    margin-left: 20px;
+    margin-top: 200px;
+    
+
+}
+
+div.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    align-items: flex-end;
+    
+  
+
+}
+
+
+
+div.display.image {
+    text-align: right;
+    font-weight: bold;
+    width: 50%;
+    margin-top: 50px;
+    font-size: 20px;
+    
+    margin-left: 50px;
+  
+}
+
+div.words { 
+    width: 33.333%;
+    font-size: 15px;
+    font-style: italic;
+    margin-left: 50px;
+    font-weight: bold;
+
+}
+
+div.preacher.description { 
+    font-weight: normal;
+    font-size: 15px;
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    text-align: left;
+    
+}
+
+div.preacher.title { 
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    margin-right: 1185px;
+    text-align: right;
+    color: rgb(202, 33, 137);
+    margin-top: 10px;
+   
+}
+
+div.words a {
+    color: rgb(202, 33, 137);
+    font-weight: bold;
+}
+
+div.words a:hover {
+    color: limegreen;
+}
+
+div.item.feature {
+    width:25%; 
+    
+}
+
+div.item.small { 
+    width: 25%
+}
+
+div.item {
+    width: 25%;
+    padding: 10px;
+}
+
+div.item-number {
+    font-size: 40px;
+}
+
+div.item.feature {
+    color: blue;
+}
+
+div.footnotes {
+    display:flex;
+    flex-wrap:wrap;
+    border-top:1px solid black;
+    border-bottom: 1px solid black;
+    padding-left: 30px;
+    margin-bottom: 30px;
+   
+    
+    
+}
+
+div.note {
+    width:33.33%;
+    padding: 20px;
+    font-size:16px;
+    padding-bottom: 30px;
+   
+
+}
+
+
+
+div.featureimage { 
+    width: 33.333%;
+    padding: 30px;
+   
+    
+}
+
+
+div.featured { 
+    font-size: 20px;
+    margin-left: 1100px;
+    padding: 10px;
+    border-left: 2px solid black;
+    font-weight: bold;
+   
+    
+  
+  
+}
+
+div.contents.title {
+    margin-left: 1080px;
+    padding: 20px;
+    font-style: italic;
+    font-weight: bolder;
+    color: limegreen;
+   
+}
+
+div.stone.title { 
+    color: rgb(202, 33, 137);
+    font-style: italic;
+    font-size: 15px;
+    margin-left: 1px;
+    margin-top: 10px;
+}
+
+div.stone.description { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+div.about.information { 
+    margin-top: 10px;
+    font-weight: bold;
+    margin-left: 25px;
+    width: 50%;
+    margin-bottom: 200px;
+}
+
+div.behind.title { 
+    margin-top: 100px; 
+    font-size: 80px;
+    margin-left: 50px;
+}
+
+div.title.smoke { 
+    font-size: 80px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+div.smoke.subheading { 
+    color: rgb(202, 33, 137);
+    font-style: italic;
+    font-weight: bolder;
+}
+
+div.about.smoke {
+    margin-left: 30px;
+    font-weight: bold;
+   
+}
+
+
+div.artefact.title { 
+    margin-top: 100px;
+    font-size: 80px;
+    padding: 20px;
+}
+
+div.stone.description a {
+    color: rgb(202, 33, 137);
+    font-weight: bold;
+}
+
+div.stone.description a:hover{ 
+    color: limegreen;
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
